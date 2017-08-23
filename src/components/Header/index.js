@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import s from './index.module.scss';
 
+import APISelector from '../APISelector';
+
 export default class Header extends Component {
     render() {
         return (
@@ -13,6 +15,8 @@ export default class Header extends Component {
                     <h2>
                         Welcome to the interactive explorer console for the Astronomer Public GraphQL API
                     </h2>
+
+                    <APISelector />
                 </div>
             </div>
         )

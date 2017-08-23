@@ -4,6 +4,7 @@
 
 body {
   background: none;
+  font-size: 12px;
 }
 
 textarea:focus, input:focus{

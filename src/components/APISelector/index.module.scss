@@ -1,0 +1,22 @@
+@import "../../styles/index.scss";
+
+.wrapper {
+    margin: 2rem 0;
+    button {
+        @include button;
+
+        &.active {
+            color: black;
+            background-color: #fff;
+        }
+    }
+
+    .fields {
+        margin-top: 3rem;
+        text-align: center;
+
+        input {
+            margin: 1rem auto;
+        }
+    }
+}
